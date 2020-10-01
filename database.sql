@@ -1,10 +1,10 @@
 -- CREATE DATABASE partydb;
 
--- create table users (
--- 	user_id INT,
--- 	first_name VARCHAR(50),
--- 	last_name VARCHAR(50)
--- );
+create table users (
+	user_id INT,
+	first_name VARCHAR(50),
+	last_name VARCHAR(50)
+);
 insert into users (user_id, first_name, last_name) values (1, 'Fransisco', 'Stansbie');
 insert into users (user_id, first_name, last_name) values (2, 'Babbie', 'Phair');
 insert into users (user_id, first_name, last_name) values (3, 'Loretta', 'Dady');
