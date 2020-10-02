@@ -15,7 +15,7 @@ if(process.env.NODE_ENV === "production") {
     //server static content
     //npm run build
     app.use(express.static(path.join(__dirname, "client/build")));
-}
+} 
 
 //Routes
 
